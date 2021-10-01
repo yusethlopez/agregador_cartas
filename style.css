@@ -5,11 +5,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: coral;
 }
 
 h1{
     text-align: center;
-    color: blue;
+    color: blueviolet;
 }
 .main{
     display: flex;
@@ -18,22 +19,25 @@ h1{
     align-items: center;
 }
 button{
+    font-size: 28px;
     border: 1px solid black;
     height: 32px;
     border-radius: 5px;
     margin-bottom: 32px;
+    
 }
 button:hover{
-    background-color: black;
-    color: white;
+    background-color:powderblue;
+    color: black;
     cursor: pointer;
 }
 .card{
     max-width: 300px;
-    border: 1px solid #dfdfdf;
+    border: 1px solid blanchedalmond;
     border-radius: 10px;
     margin-bottom: 32px;
     overflow: hidden;
+    box-shadow: 6px 6px rgb(231, 22, 179);
 }
 .image-container{
     width: 100%;

@@ -28,4 +28,4 @@ const addCard=()=>{
     mountNode.appendChild(createCardNode())
 }
 
-add
+addCardButton.addEventListener('click', addCard)
